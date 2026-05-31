@@ -22,5 +22,8 @@ matplotlib>=3.8    # kept for the existing paper-trading UI
 # ── AI / Claude API ───────────────────────────────────────────────────────
 anthropic>=0.28
 
+# ── Export / reporting ────────────────────────────────────────────────────
+openpyxl>=3.1        # Excel report generation (.xlsx)
+
 # ── Utilities ─────────────────────────────────────────────────────────────
-# (no extra deps needed — sqlite3 is stdlib, json is stdlib)
+# (sqlite3, json, io, zipfile are all stdlib)
