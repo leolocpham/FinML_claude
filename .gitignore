@@ -1,0 +1,29 @@
+# Database (local data store — never commit)
+finmine.db
+finmine.db-shm
+finmine.db-wal
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
